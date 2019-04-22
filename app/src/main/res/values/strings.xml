@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KotlinApp</string>
+    <string name="button_name">Show Name</string>
+    <string name="title_activity_second_app">SecondApp</string>
+    <string name="title_activity_firts_app">FirtsApp</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

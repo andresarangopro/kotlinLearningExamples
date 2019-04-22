@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+                android:text="FirstApp"
+                android:layout_width="0dp"
+                android:layout_height="71dp"
+                android:layout_weight="0.5"
+                android:id="@+id/btnFirstApp" android:onClick="onClick"/>
+        <Button
+                android:text="SecondApp"
+                android:layout_width="0dp"
+                android:layout_height="71dp"
+                android:layout_weight="0.5"
+                android:id="@+id/btnSecondApp"
+                android:onClick="onClick"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+                android:text="ListView"
+                android:layout_width="0dp"
+                android:layout_height="71dp"
+                android:layout_weight="0.5"
+                android:id="@+id/btnListView" android:onClick="onClick"/>
+        <Button
+                android:text="RecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="71dp"
+                android:layout_weight="0.5"
+                android:id="@+id/btnRecyclerView" android:onClick="onClick"/>
+
+    </LinearLayout>
+</LinearLayout>
