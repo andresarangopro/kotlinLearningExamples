@@ -5,6 +5,6 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".DataStorage.SharedPreferences">
-
+        tools:context=".DataStorage.SharedPreferencesActivity">
+        <include layout="@layout/content_shared_preferences"/>
 </android.support.constraint.ConstraintLayout>

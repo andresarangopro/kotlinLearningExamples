@@ -9,7 +9,11 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".DataStorage.SharedPreferences">
+        <activity android:name=".DataStorage.SqliteApp.activity.ChoreListActivity">
+        </activity>
+        <activity android:name=".DataStorage.SqliteApp.activity.SqliteAddActivity">
+        </activity>
+        <activity android:name=".DataStorage.SharedPreferencesActivity">
         </activity>
         <activity android:name=".SecondApp.RecyclerViewActivity">
         </activity>

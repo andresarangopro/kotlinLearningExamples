@@ -7,12 +7,13 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import com.example.kotlinapp.DataStorage.SharedPreferencesActivity
+import com.example.kotlinapp.DataStorage.SqliteApp.activity.SqliteAddActivity
 import com.example.kotlinapp.FirstApp.WhatsMyName
 import com.example.kotlinapp.R
 import com.example.kotlinapp.SecondApp.ListAdapterActivity
 import com.example.kotlinapp.SecondApp.RecyclerViewActivity
 import com.example.kotlinapp.SecondApp.SecondApp
-import kotlinx.android.synthetic.main.content_menu_activity.*
 
 class MenuActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -35,6 +36,8 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btnSecondApp -> {startActivity(Intent(this, SecondApp::class.java))}
             R.id.btnListView ->{startActivity(Intent(this, ListAdapterActivity::class.java))}
             R.id.btnRecyclerView ->{startActivity(Intent(this, RecyclerViewActivity::class.java))}
+            R.id.btnSharedPrefere ->{startActivity(Intent(this, SharedPreferencesActivity::class.java))}
+            R.id.btnDataSqlite ->{startActivity(Intent(this, SqliteAddActivity::class.java))}
         }
     }
 

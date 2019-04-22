@@ -4,4 +4,5 @@
     <string name="title_activity_second_app">SecondApp</string>
     <string name="title_activity_firts_app">FirtsApp</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="menu_title">Add chore</string>
 </resources>
